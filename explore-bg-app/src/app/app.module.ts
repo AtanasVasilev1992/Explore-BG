@@ -8,9 +8,10 @@ import { environment } from '../environments/environment.development';
 import { provideAuth, getAuth } from '@angular/fire/auth';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 import { provideFirebaseApp } from '@angular/fire/app';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, MainComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
