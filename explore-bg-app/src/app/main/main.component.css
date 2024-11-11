@@ -1,0 +1,42 @@
+.main {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url('/assets/images/sea.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  
+    .main-content {
+      max-width: 800px;
+      padding: 2rem;
+  
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+  
+      .cta-button {
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        background-color: #e95241;
+        border: none;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #b33223;
+        }
+      }
+    }
+  }
+  
