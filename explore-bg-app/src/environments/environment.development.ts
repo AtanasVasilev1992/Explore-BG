@@ -8,4 +8,5 @@ export const environment = {
       messagingSenderId: "283699000526",
       appId: "1:283699000526:web:6b09a7b9b43a6d63a04c9f"
     },
+    baseUrl: "https://firestore.googleapis.com/v1/projects/explore-bulgaria-5c6e2/databases/(default)/documents/nationalTouristSites/"
   };
