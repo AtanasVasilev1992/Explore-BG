@@ -13,6 +13,6 @@ export class ApiService {
   getLandmarks() {
    const api = environment.baseUrl
 
-    return this.http.get<Landmark>(api);
+    return this.http.get<Landmark[]>(api);
   }
 }
