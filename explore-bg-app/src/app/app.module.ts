@@ -11,7 +11,7 @@ import { provideFirebaseApp } from '@angular/fire/app';
 import { MainComponent } from './main/main.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, MainComponent],
