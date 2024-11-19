@@ -1,21 +1,20 @@
 .navigation {
-    background-color: #2c3e50;
-    padding: 1rem 0;
+    padding: 1em 0;
   
-    ul {
+    :is(ul) {
       list-style: none;
       display: flex;
       justify-content: center;
       margin: 0;
       padding: 0;
   
-      li {
-        margin: 0 1rem;
+      :is(li) {
+        margin: 0 1em;
   
-        a {
+        :is(a){
           color: white;
           text-decoration: none;
-          padding: 0.5rem 1rem;
+          padding: 0.5em 1em;
           border-radius: 4px;
           transition: background-color 0.3s;
   

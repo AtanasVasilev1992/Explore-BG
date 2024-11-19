@@ -11,21 +11,21 @@
   
     .main-content {
       max-width: 800px;
-      padding: 2rem;
+      padding: 2em;
   
-      h1 {
-        font-size: 3rem;
-        margin-bottom: 1rem;
+      :is(h1) {
+        font-size: 3em;
+        margin-bottom: 1em;
       }
   
-      p {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
+      :is(p) {
+        font-size: 1.2em;
+        margin-bottom: 2em;
       }
   
       .cta-button {
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
+        padding: 1em 2em;
+        font-size: 1.1em;
         background-color: #e95241;
         border: none;
         color: white;
